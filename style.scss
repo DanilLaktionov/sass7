@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+  }
+
+header{
+    max-width: 100%;
+    margin-top: 120px;
+    .center{
+        margin-left: 495px;
+        margin-right: 495px;
+    }
+
+    .headerContent{
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    div{
+        display:flex;
+        justify-content:center;
+    }
+
+    .subtitle{
+        color:rgba(137, 143, 143, 1);
+        font-size: 18px;
+        font-family:'Raleway';
+        font-weight: 500;
+        font-style: normal;
+    }
+    .title{
+        color:rgba(255, 204, 0, 1);
+        font-size: 60px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        height: 58px;
+    }
+    .sharp1{
+        margin-top: 50px;
+    }
+}
+
+main{
+    max-width: 100%;
+    margin-top: 50px;
+    .mainInfoOne{
+        display:flex;
+        justify-content: center;
+        height: 560px;
+        left: 70px;
+        
+    }
+    .mainLeft{
+        width:515px;
+        
+        padding-top: 65px;
+        border-right:2px solid rgba(255, 204, 0, 1);
+    }
+  
+
+}
+
+.mainRight{
+    width:515px;
+    height:420px;
+    padding-top: 65px;
+   .mainRightOne{
+        height: 420px;
+        width: 430px;
+        margin-left: 85px;
+    }
+    .mainTitle{
+        font-family: 'Roboto';
+        font-size: 36px;
+        font-weight: 900;
+        font-style: normal;
+        color: rgba(102, 102, 102, 1);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .divider{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .mainFrontend{
+        font-family:'Raleway';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        color:rgba(102, 102, 102, 1);
+        margin-bottom: 30px;
+    }
+    .mainRightImg{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .mainInfo{
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        color:rgba(51, 51, 51, 1);
+        margin-bottom: 20px;
+    }
+    .decore{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .button{
+        text-align: center;
+    }
+    button{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 700;
+        color:#666666;
+        font-style: normal;
+        background: #fff;
+        text-align: center;
+        border: 1px solid #FFCC00;
+        height: 24px;
+        width: 118px;
+
+    }
+}
+
